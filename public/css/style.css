@@ -1,14 +1,48 @@
-.big-banner{
-    background-image: url('images/slide1.jpg');
+.carousel-caption {
+    position: left;
+
+    right: 0;
+    top: 150;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    opacity: 1;
+    font-size: 90;
+    font-style: bold;
+    font-family: cursive;
 }
 
-.carousel .item {
-    height: 300px;
-  }
-  
-  .item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px;
-  }
+.two {
+    top: 120;
+    bottom:120:
+    text-align:center;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding: bottom 20;
+
+    opacity: 0.7;
+    font-size: 80;
+    font-style: bold;
+    font-family: monospace;
+    
+}
+
+.three {
+    top: 130;
+    bottom:120:
+    text-align:center;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    opacity : 0.7;
+    font-size: 90;
+    font-style: bold;
+    font-family: monospace;
+    background-color:grey;
+    opacity:0.7;
+
+    
+}
