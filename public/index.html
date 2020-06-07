@@ -10,7 +10,7 @@
 </head>
 
 <body style="background-image: url(images/background1.jpg); background-size: inherit;">
-    <nav style="margin-bottom: 10;" class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav style="margin-bottom: 10; font-size: 25;" class="navbar navbar-expand-lg navbar-dark bg-secondary">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,21 +61,21 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner" data-interval="100">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img height="550" class="d-block w-100 " src="images/slide 2.jpg" alt="First slide">
-                        <div style="color:whitesmoke;" id="app" class="carousel-caption">
+                        <div style="color:white;" id="app" class="carousel-caption">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img height="550" class="d-block w-100" src="images/slide .jpg" alt="Second slide">
-                        <div style="color: crimson;" id="apptwo"class="carousel-caption two">
+                        <div style="color: crimson;" id="apptwo" class="carousel-caption two">
                             <p>i am a tech enthusiasist</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img height="550" class="d-block w-100" src="images/slide5.jpg" alt="Third slide">
-                        <div style="color: crimson;" id="appthree"class="carousel-caption three">
+                        <div style="color:coral" id="appthree" class="carousel-caption three">
                             <p>i am a tech enthusiasist</p>
                         </div>
                     </div>
@@ -90,12 +90,29 @@
                 </a>
             </div>
             <span></span>
-            <div style="margin-top: 25 px;padding: top 25; width: 1250; border: 5px solid aqua;"
+            <div style="margin-top: 25 px;padding:20px; width: 1250; border: 5px solid aqua;"
                 class="jumbotron big-banner" width=100%>
-                <h1 class="display-4">Hi, i am Vaishnavi Sharma</h1>
-                <p class="lead"> A student of Shri Vaishnav Vidyapeeth Vishwavidyalaya</p>
+                <h1 class="display-4"><b>About me</b></h1>
                 <hr class="my-4">
-                <p>a tech enthusiast and a music lover</p>
+                <div class="row">
+                    <div class="images">
+                        <img src="images/mypic.jpeg" width="300px" height="400px" style="float: right;"/>
+                        <span style="text-align: left;">
+                            I am Vaishnavi Sharma. I am pursuing my bachelor's degree in Computer 
+                            Science
+                            Engineering with <strong>and mobile computing </strong> in collaboration with ,<strong> International Business
+                            Machine (IBM) </strong> from <strong>Shri Vaishnav Vidhyapeeth Vishwavidyalaya (SVVV),Indore</strong></Shri> i am a person who enjoys using computers and electronic equipment.
+                            and am willing to learn more of the ins and outs of a product than the average consumer,
+                             who just wants to use it.
+                
+                            <h2 style="font-weight: lighter;font-style: italic;margin-top: 25;">My skills</h2>
+                            I am 
+
+                            
+                        </span>
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -125,59 +142,57 @@
         });
 
         typewriter.typeString('Hello....')
-            .pauseFor(1000)
+            .pauseFor(800)
             .deleteChars(4)
             .deleteAll()
             .typeString('From')
             .pauseFor(500)
             .deleteAll()
             .typeString('Vaishnavi Sharma')
-            .pauseFor(800)
+            .pauseFor(1200)
             .start()
     </script>
 
-<script>
-    var app = document.getElementById('apptwo');
+    <script>
+        var app = document.getElementById('apptwo');
 
-    var typewriter = new Typewriter(app, {
-        loop: true
-    });
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
 
-    typewriter.typeString('I Am ')
-        .pauseFor(1000)
-        .deleteChars(4)
-        .deleteAll()
-        .typeString('A')
-        .pauseFor(500)
-        .deleteAll()
-        .typeString('Tech Enthusiasist')
-        .pauseFor(800)
-        .start()
-</script>
+        typewriter.typeString('I Am ')
+            .pauseFor(200)
+            .deleteChars(4)
+            .deleteAll()
+            .typeString('A')
+            .pauseFor(100)
+            .deleteAll()
+            .typeString('Tech Enthusiasist')
+            .pauseFor(1200)
+            .start()
+    </script>
 
-<script>
-    var app = document.getElementById('appthree');
+    <script>
+        var app = document.getElementById('appthree');
 
-    var typewriter = new Typewriter(app, {
-        loop: true
-    });
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
 
-    typewriter.typeString('And ')
-        .pauseFor(1000)
-        .deleteChars(4)
-        .deleteAll()
-        .typeString('A')
-        .pauseFor(500)
-        .deleteAll()
-        .typeString('Musician')
-        .pauseFor(800)
-        .start()
-</script>
+        typewriter.typeString('And ')
+            .pauseFor(200)
+            .deleteChars(3)
+            .pauseFor(800)
+            .deleteAll()
+            .typeString('Musician...')
+            .pauseFor(1200)
+            .start()
+    </script>
 
 
 
 
-        
+
 </footer>
 
 </html>
